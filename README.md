@@ -1,8 +1,18 @@
-# django
-## Crear un proyecto
+# django 
+## Este comando crea un nuevo proyecto Django llamado "hola_mundo".
 ```bash
 django-admin startproject "hola_mundo"
 ```
+# Este comando inicia el servidor de desarrollo de Django para la aplicación.
+```bash
+python manage.py runserver
+```
+# Este comando crea una migración para la base de datos.
+```bash
+python manage.py migrate
+```
+
+
 MTV -> Modelo, Template, Vista
 
 ## Estructura del proyecto
