@@ -1,0 +1,72 @@
+:root{
+    --color-primario: #007bff;
+    --color-secundario: #6c757d;
+    --color-title: #343a40;
+    --color-text: #6c757d;
+    --color-fondo: #f8f9fa;
+    --font-title: 'ReadMe', sans-serif;
+}   
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+}
+
+nav {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    background-color: var(--color-primario);
+    padding: 10px 0;
+    height: 100px;
+}
+
+nav img {
+    width: 100px;
+    margin-left: 20px;
+}
+
+nav ul {
+    display: flex;
+    list-style: none;
+    margin-right: 20px;
+}
+
+nav ul li {
+    margin: 0 10px;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-size: 30px;
+    font-weight: 700;
+    font-family: var(--font-title);
+}
+
+nav ul li a:hover {
+    color: var(--color-secundario);
+}
+
+footer {
+    background-color: var(--color-primario);
+    color: white;
+    text-align: center;
+    padding: 10px 0;
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+}
+
+footer img {
+    width: 50px;
+}
+
+
+@font-face {
+    font-family: 'ReadMe';
+    src: url('../font/ReadMe.woff2') format('woff2'),
+         url('../font/ReadMe.woff') format('woff');
+}

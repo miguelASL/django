@@ -12,6 +12,14 @@ python manage.py runserver
 python manage.py migrate
 ```
 
+# Este comando sirve para verificar si hay algún problema en el proyecto.
+```bash
+ python manage.py check "Nombre de la app"
+```
+
+# Este comando sirve 
+python manage.py makemigrate
+
 
 MTV -> Modelo, Template, Vista
 
